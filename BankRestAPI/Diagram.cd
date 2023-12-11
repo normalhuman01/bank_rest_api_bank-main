@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="BankRestAPI.Controllers.AccountController" Collapsed="true">
+    <Position X="3" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABgAAAAAAAAIAAAIEAQAEIIAAIAUEABAAGAUAAAAA=</HashCode>
+      <FileName>Controllers\AccountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.Controllers.BankController" Collapsed="true">
+    <Position X="5.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAAgAIAAAAQBAQEAIAAAAEAAAAAAAAAACQA=</HashCode>
+      <FileName>Controllers\BankController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.Controllers.CustomerController" Collapsed="true">
+    <Position X="7.5" Y="9" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAQAAAAAABAAAAAFIICAAAQEAAAAAIAABAAQ=</HashCode>
+      <FileName>Controllers\CustomerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.Controllers.TransferController" Collapsed="true">
+    <Position X="0.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAIAAgAIACAAAAEAEIIAAAAUgACAAEIAAQAAA=</HashCode>
+      <FileName>Controllers\TransferController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.Controllers.ValidationResult">
+    <Position X="13.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQFAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAAAEA=</HashCode>
+      <FileName>Controllers\TransferController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.Data.BankDbContext" Collapsed="true">
+    <Position X="10.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Data\BankDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.DTO.AccountDTO" Collapsed="true">
+    <Position X="4" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAEgAAAAADAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\AccountDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.DTO.BankDTO" Collapsed="true">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>DTO\BankDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.DTO.TransferDTO">
+    <Position X="8.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAAQAAAAAAAAAAgAAAACBACACAAAAAAAACAAAAEAAgA=</HashCode>
+      <FileName>DTO\TransferDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.Migrations.InitialCreate" Collapsed="true">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20230315182217_InitialCreate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.Migrations.TransferMigratoin" Collapsed="true">
+    <Position X="2.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20230316121256_TransferMigratoin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.Migrations.BankDbContextModelSnapshot" Collapsed="true">
+    <Position X="5.5" Y="11.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Migrations\BankDbContextModelSnapshot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.Models.Account">
+    <Position X="28.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQECAAAAAAAAAAAAAEgAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.Models.Bank">
+    <Position X="21.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAgAAQAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Bank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.Models.Customer" Collapsed="true">
+    <Position X="1.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.Models.Transfer">
+    <Position X="16" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABSAAgAAAAABAAgAAAAAACACAAAAAQAAACAABEAAAA=</HashCode>
+      <FileName>Models\Transfer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.Services.AccountService" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAAAAAAAAAAAAAAABAEAAUAAAgAAAAAAAIA=</HashCode>
+      <FileName>Services\AccountService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BankRestAPI.Services.BankService" BaseTypeListCollapsed="true">
+    <Position X="26" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQBAAAAAAAAAAAAAAAAAAAAAAEBAEAAAgAAAAAAAIg=</HashCode>
+      <FileName>Services\BankService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BankRestAPI.Services.CustomerService" Collapsed="true">
+    <Position X="6.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAAAAAAAAAQAAAAAAAEAAEAAAgAAAAAAAIA=</HashCode>
+      <FileName>Services\CustomerService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BankRestAPI.Services.TransferService" BaseTypeListCollapsed="true">
+    <Position X="23.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAAAAAAAAAAAAAAAAAEAAEAAAgAAAAAAAIA=</HashCode>
+      <FileName>Services\TransferService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="System.Object">
+    <Position X="14.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Microsoft.AspNetCore.Mvc.Controller" Collapsed="true">
+    <Position X="4.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.EntityFrameworkCore.DbContext" Collapsed="true">
+    <Position X="10.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.EntityFrameworkCore.Infrastructure.ModelSnapshot" Collapsed="true">
+    <Position X="6" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Microsoft.EntityFrameworkCore.Migrations.Migration" Collapsed="true">
+    <Position X="1.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Interface Name="BankRestAPI.Services.IEntityService&lt;T&gt;" Collapsed="true">
+    <Position X="30.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAEAAEAAAgAAAAAAAIA=</HashCode>
+      <FileName>Services\IEntityService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
